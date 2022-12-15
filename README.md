@@ -79,6 +79,16 @@ springdoc:
         description: "Persist Service"
         url: http://127.0.0.1:8086/v3/api-docs.yaml
 ```
+**Note:** You should not use ui dependency on sub modules. You can use the dependecy on sub modules for prevent unused swagger-ui dependency.
+(Instead of springdoc-openapi-starter-webmvc-ui)
+
+```xml 
+<dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
+    <version>2.0.0</version>
+</dependency>
+```
 
 ## How To Work
 
