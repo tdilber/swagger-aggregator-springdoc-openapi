@@ -19,11 +19,22 @@ https://github.com/tdilber/anouncy
 
 ```xml
 
-<dependency>
-    <groupId>com.beyt.doc</groupId>
-    <artifactId>swagger-aggregator-springdoc-openapi</artifactId>
-    <version>0.0.1</version>
-</dependency>
+<dependencies>
+    ...
+    <dependency>
+        <groupId>com.beyt.doc</groupId>
+        <artifactId>swagger-aggregator-springdoc-openapi</artifactId>
+        <version>0.0.1</version>
+    </dependency>
+</dependencies>
+
+<repositories>
+<repository>
+    <id>github</id>
+    <name>GitHub Apache Maven Packages</name>
+    <url>https://maven.pkg.github.com/tdilber/swagger-aggregator-springdoc-openapi</url>
+</repository>
+</repositories>
 ```
 
 ### 2
