@@ -76,6 +76,6 @@ Then fetching one by one the others and **merging just 4 part of yaml**.
 - Servers
 - Paths
 - Tags
-- Schemas)
+- Schemas
 
 Serving path fixed and it is **/v3/grouped-api-docs**
