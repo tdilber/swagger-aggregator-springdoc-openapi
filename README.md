@@ -89,4 +89,4 @@ Then fetching one by one the others and **merging just 4 part of yaml**.
 - Tags
 - Schemas
 
-Serving path fixed and it is **/v3/grouped-api-docs**
+Serving yaml path fixed and it is **/v3/grouped-api-docs** but ui path will be default url.
